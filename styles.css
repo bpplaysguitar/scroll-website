@@ -483,4 +483,74 @@
 }
 
 .services__card:nth-child(2) {
+  background: #1fa2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1fa2ff,
+    #12d8fa,
+    #a6ffcb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1fa2ff,
+    #12d8fa,
+    #a6ffcb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.services__card:nth-child(3) {
+  background: #1fa2ff; /* fallback for old browsers */
+  background: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 57%,
+    #fff800 100%
+  );
+}
+.services__card:nth-child(4) {
+  background: #1fa2ff; /* fallback for old browsers */
+  background-image: -webkit-linear-gradient(
+    -225deg,
+    #1fa2ff 0%,
+    #12f8fa 29%,
+    #35f1d2 52%,
+    #a6ffcb 100%
+  );
+}
+
+.services__card h2 {
+  text-align: center;
+}
+
+.services__card p {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.services__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.services__card button {
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #131313;
+  font-size: 1rem;
+}
+
+.services__card button:hover {
+  cursor: pointer;
+}
+
+.services__card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
 }
